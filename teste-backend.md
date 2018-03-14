@@ -9,16 +9,17 @@ Este documento descreve o exercício de programação para a vaga de Engenheiro 
 * O código produzido deve estar versionado em algum repositório público (de preferência Github)
 * Você deve mandar e-mail para codesubmissions@vagas.com.br com o assunto `Engenheiro de Software VAGAS.com - <%SEU_NOME%>` e o link para o seu repositório.
 
-## Moradores da Terra (FIXME: Ver com Marketing)
+## Moradores do universo
 
-Elaboramos alguns dados para que você utilize na sua solução. Neste [arquivo](terra.json) você encontrará mil moradores da Terra e seus atributos. A estrutura do arquivo e de cada um dos moradores é a seguinte:
+Elaboramos alguns dados para que você utilize na sua solução. Neste [arquivo](universo.json) você encontrará mil moradores do universo e seus atributos. A estrutura do arquivo e de cada um dos moradores é a seguinte:
 
 ```javascript
 {
   "id": 1,
   "nome": "José da Silva",
   "habilidades": ["inteligente", "carisma", "forte"],
-  "data_nascimento": 1990-01-01
+  "data_nascimento": 1990-01-01,
+  "origem": "Acheropita"
 }
 ```
 
@@ -26,9 +27,9 @@ Estes dados devem ser utilizados para a execução do exercício descrito abaixo
 
 ## Desafio
 
-Com o objetivo de organizar os moradores da Terra, queremos que você crie uma API REST para nos ajudar nesta difícil empreitada. A sua API proverá as seguintes funções:
+Com o objetivo de organizar os moradores do universo, queremos que você crie uma API REST para nos ajudar nesta difícil empreitada. A sua API proverá as seguintes funções:
 
-### 1. Crie um morador na Terra (FIXME: Ver com Marketing)
+### 1. Crie um morador do universo
 
 Este endpoint será responsável por adicionar mais um morador ao grupo existente. Os atributos obrigatórios devem ser preenchidos e seus valores devem estar de acordo com o limite de cada um. Abaixo mostramos o comportamento esperado para esta função:
 
@@ -43,7 +44,8 @@ Body:
 {
   "nome": "João de Souza",
   "habilidades": ["veloz", "perseverante"],
-  "data_nascimento": 1990-01-02
+  "data_nascimento": 2990-01-02,
+  "origem": "Papazoni"
 }
 ```
 
@@ -52,12 +54,13 @@ Validações a serem feitas:
 * Nome tem que ter um mínimo de 3 caracteres e máximo de 50 caracteres
 * Idade deve ser de no mínimo 18 anos
 * Todo morador deve ter pelo menos uma habilidade
+* As origens aceitas são: [Papazoni, Acheropita, Ethan e Jazzper]
 
 Response:
 
 O response para esta função será definido por você e faz parte da avaliação.
 
-### 2. Busque um morador por id (FIXME: Ver com Marketing)
+### 2. Busque um morador por id
 
 Este endpoint será responsável por buscar um morador específico no grupo existente a partir de seu `id`. Abaixo mostramos o comportamento esperado para esta função:
 
@@ -73,11 +76,12 @@ Response:
   "id": 1,
   "nome": "José da Silva",
   "habilidades": ["inteligência", "carisma", "força física"],
-  "idade": 28
+  "idade": 120,
+  "origem": "Acheropita"
 }
 ```
 
-### 3. Encontre moradores a partir de suas habilidades (FIXME: Ver com Marketing)
+### 3. Encontre moradores a partir de suas habilidades
 
 Crie um endpoint que retornará uma lista de moradores a partir de suas habilidades. Porém, desejamos que o endpoint retorne moradores com habilidades similares ao que estamos buscando. Por exemplo: ao buscarmos por 'teste', o seu endpoint retornaria candidatos com habilidades como 'testes', 'testar' e 'testador'. Estas habilidades serão tratadas como texto e a busca deverá ser feita na base existente de moradores. Esperamos que o algoritmo de busca seja feito por você sem a utilização de um framework auxiliar.
 
