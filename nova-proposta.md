@@ -18,7 +18,7 @@ Considerações gerais:
   * **5**: especialista
 * **Localidades**: representadas por letras do alfabeto. Verificar no mapa abaixo os caminhos e distâncias entre as localidades
 
-![](/home/luisrpp/Documents/processo_seletivo/graph.png)
+![](./graph.png)
 
 
 
