@@ -59,7 +59,7 @@ Considerações gerais:
 
 #### 3. Registrar candidatura de uma pessoa em uma vaga
 
-Neste endpoint, além de registar a candidatura, deverá também ser calculado o **score** do candidato para a vaga em questão.
+Neste endpoint, além de registar a candidatura, deverá também ser calculado o **score***  do candidato para a vaga em questão.
 
 **POST:** `http://localhost:9000/v1/candidatura`
 
@@ -86,9 +86,11 @@ $$ SCORE = N + 3 \times D$$, onde:
 
 Considere somente a parte inteira do *SCORE*.
 
+*_Ressaltando que esta é uma fórmula hipotética_
 
 
-#### 4. Criar um endpoint para retornar os candidatos de uma vaga rankeados pelo score
+
+#### 4. Criar um endpoint para retornar os candidatos de uma vaga, ordenados pelo score
 
 **GET:** `http://localhost:9000/v1/vaga/1/candidaturas/ranking`
 

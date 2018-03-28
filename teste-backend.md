@@ -5,9 +5,13 @@ Este documento descreve o exercício de programação para a vaga de Engenheiro 
 ## Considerações sobre o desafio
 
 * O prazo para entrega da solução é de 7 dias corridos contados a partir da data de recebimento do desafio. Caso você precise de mais tempo entre em contato conosco e fechamos uma nova data para a entrega. Não se preocupe, somos super flexíveis ;)
-* Você pode utilizar qualquer linguagem de programação de propósito geral (https://en.wikipedia.org/wiki/General-purpose_programming_language) e frameworks necessários para a implementação da solução
+* Você pode utilizar as seguintes linguagens dentre aquelas de propósito geral (https://en.wikipedia.org/wiki/General-purpose_programming_language):
+  * Ruby, Python, Java, C#, Clojure, Crystal, Elixir, Javascript, Lisp, Perl e PHP
+* Além disso poderá utilizar quaisquer frameworks e bibliotecas necessários para a implementação da solução
 * O código produzido deve estar versionado em algum repositório público (de preferência Github)
-* Você deve mandar e-mail para codesubmissions@vagas.com.br com o assunto `Engenheiro de Software VAGAS.com - <%SEU_NOME%>` e o link para o seu repositório.
+* Você deve mandar e-mail para codesubmissions@vagas.com.br com o assunto `Engenheiro de Software VAGAS.com - <%SEU_NOME%>` e o link para o seu repositório
+
+
 
 ## Moradores do universo
 
@@ -24,6 +28,8 @@ Elaboramos alguns dados para que você utilize na sua solução. Neste [arquivo]
 ```
 
 Estes dados devem ser utilizados para a execução do exercício descrito abaixo. Sugerimos deixar todos os dados em memória durante a execução da solução, mas você pode utilizar um banco de dados para facilitar a sua implementação.
+
+
 
 ## Desafio
 
@@ -104,11 +110,15 @@ Response:
 
 Crie uma documentação breve sobre a sua solução, com explicação sobre o design e hipóteses assumidas. Esperamos também um passo a passo de como executar a sua solução. Quanto mais simples for, melhor será. A utilização de Docker é um plus ;)
 
+
+
 ## Avaliação
 
 A sua solução será avaliada por um time de engenheiros de software aqui da Vagas.com e iremos nos basear nos seguintes critérios:
 
 ### Execução
+
+- __Build:__ Conseguimos configurar o ambiente e fazer o _build_  da solução de forma simples e conforme as instruções enviadas?
 
 * **Execução:** Conseguimos executar a solução baseados na documentação enviada? Todos os requisitos foram implementados na solução entregue?
 * **Performance:** A sua solução possui uma performance adequada? Em quais casos pode haver lentidão na resposta? Caso tenha alguma ideia, há como deixar o desempenho da solução ainda melhor?
