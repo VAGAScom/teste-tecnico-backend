@@ -118,7 +118,7 @@ A sua solução será avaliada por um time de engenheiros de software aqui da Va
 
 ### Execução
 
-- __Build:__ Conseguimos configurar o ambiente e fazer o _build_  da solução de forma simples e conforme as instruções enviadas?
+- __Build:__ Conseguimos configurar o ambiente e fazer o _build_  da solução de forma simples e conforme as instruções enviadas? Vale ressaltar que a execução não poderá depender do uso de alguma IDE específica.
 
 * **Execução:** Conseguimos executar a solução baseados na documentação enviada? Todos os requisitos foram implementados na solução entregue?
 * **Performance:** A sua solução possui uma performance adequada? Em quais casos pode haver lentidão na resposta? Caso tenha alguma ideia, há como deixar o desempenho da solução ainda melhor?
