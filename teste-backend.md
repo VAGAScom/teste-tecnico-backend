@@ -108,9 +108,15 @@ Response:
 }
 ```
 
-### 4. Documentação e deploy
 
-Crie uma documentação breve sobre a sua solução, com explicação sobre o design e hipóteses assumidas. Esperamos também um passo a passo de como executar a sua solução. Quanto mais simples for, melhor será. A utilização de Docker é um plus ;)
+
+## Documentação e Deploy
+
+Crie uma documentação breve sobre a sua solução, com explicação sobre o design e hipóteses assumidas. 
+
+Esperamos também um passo a passo de como executar a sua solução. Quanto mais simples for, melhor será. Vale ressaltar que a execução não poderá depender do uso de alguma IDE específica.
+
+A utilização de Docker é um plus ;)
 
 
 
@@ -120,7 +126,7 @@ A sua solução será avaliada por um time de engenheiros de software aqui da Va
 
 ### Execução
 
-- __Build:__ Conseguimos configurar o ambiente e fazer o _build_  da solução de forma simples e conforme as instruções enviadas? Vale ressaltar que a execução não poderá depender do uso de alguma IDE específica.
+- __Build:__ Conseguimos configurar o ambiente e fazer o _build_  da solução de forma simples e conforme as instruções enviadas?
 
 * **Execução:** Conseguimos executar a solução baseados na documentação enviada? Todos os requisitos foram implementados na solução entregue?
 * **Performance:** A sua solução possui uma performance adequada? Em quais casos pode haver lentidão na resposta? Caso tenha alguma ideia, há como deixar o desempenho da solução ainda melhor?
