@@ -8,8 +8,10 @@ Este documento descreve o exercício de programação para a vaga de Engenheiro 
 * Você pode utilizar as seguintes linguagens dentre aquelas de propósito geral (https://en.wikipedia.org/wiki/General-purpose_programming_language):
   * Ruby, Python, Java, C#, Clojure, Crystal, Elixir, Javascript, Lisp, Perl e PHP
 * Além disso poderá utilizar quaisquer frameworks e bibliotecas necessários para a implementação da solução
+* Em relação aos dados, estes poderão ser armazenados em memória durante a execução da API ou em banco de dados (relacional, não-relacional, chave-valor... escolha o que achar que faz mais sentido para o problema)
 * O código produzido deve estar versionado em algum repositório público (de preferência Github)
 * Você deve mandar e-mail para codesubmissions@vagas.com.br com o assunto `Engenheiro de Software VAGAS.com - <%SEU_NOME%>` e o link para o seu repositório
+
 
 
 
