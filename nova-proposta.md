@@ -90,6 +90,40 @@ Considere somente a parte inteira do *SCORE*.
 
 
 
+**Exemplo de cálculo**
+
+Considere um candidato de nível Pleno (3), que mora na localidade B, que candidatou-se para uma vaga em uma empresa na localidade E. A vaga em questão é para um cargo de nível Sênior (4).
+
+O cálculo do score, ficaria da seguinte maneira:
+
+- _Calculando a distância (D) entre o candidato e a empresa:_
+
+  - D = 1/dmenor x 100
+  - D = 1/11 x 100
+  - D = 9,09
+
+- _Calculando o nível (N):_
+
+  - N = 100 - 25 X |nv - nc|
+  - N = 100 - 25 X |4 - 3|
+  - N = 100 - 25 X 1
+  - N = 100 - 25
+  - N = 75
+
+- _Cálculo do SCORE final:_
+
+  - SCORE = N + 3 X D
+
+  - SCORE = 75 + 3 X 9,09
+
+  - SCORE = 75 + 27,27
+
+  - SCORE = 102,27
+
+  - SCORE = 102
+
+    ​
+
 #### 4. Criar um endpoint para retornar os candidatos de uma vaga, ordenados pelo score
 
 **GET:** `http://localhost:9000/v1/vaga/1/candidaturas/ranking`
