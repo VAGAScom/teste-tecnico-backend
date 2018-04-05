@@ -6,6 +6,8 @@ Um recrutador precisa analisar as candidaturas recebidas para vagas de emprego. 
 
 Seu papel aqui é ajudar o recrutador, indicando para cada vaga as pessoas mais aderentes. Para isso, crie uma API de acordo com as especificações a seguir.
 
+Acreditamos que a estrutura a seguir é adequada para a solução do problema, porém sinta-se a vontade para adicionar o que achar necessário.
+
 ### Especificações da API
 
 Considerações gerais:
@@ -86,6 +88,8 @@ $$ SCORE = N + 3 \times D$$, onde:
 
 Considere somente a parte inteira do *SCORE*.
 
+*_Esperamos que você implemente o algoritmo do cálculo da distância, porém sinta-se a vontade para estudar e utilizar algoritmos conhecidos_
+
 *_Ressaltando que esta é uma fórmula hipotética_
 
 
@@ -137,14 +141,14 @@ O cálculo do score, ficaria da seguinte maneira:
         "profissao": "Engenheira de Software",
         "localizacao": "A",
         "nivel": 4,
-        "score": 452
+        "score": 375
 	},
     {
         "nome": "John Doe",
         "profissao": "Engenheiro de Software",
         "localizacao": "C",
         "nivel": 2,
-        "score": 346
+        "score": 100
 	},
     ...
 ]

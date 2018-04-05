@@ -8,6 +8,6 @@
    - um nó periférico (ex.: `F --> G` ) 
    - um intermediário (ex.: `C --> H --> E`)
 
-# Sugestões do Joacir para discussão
+- Pedir ao candidato para adicionar um limitador de candidatos no endpoint de retornar os candidatos de uma vaga
 
-- Pedir ao candidato para adicionar um limitador de candidatos no endpoint de retornar os candidatos de uma vaga. Ou isto seria direto na resolução do problema?
+- Pedir para candidato adicionar mais um parâmetro para cálculo do score
