@@ -10,5 +10,8 @@
 
 - Pedir ao candidato para adicionar um limitador de candidatos no endpoint de retornar os candidatos de uma vaga
 
-- Pedir para candidato adicionar mais um parâmetro para cálculo do score
-- Adicionar a dimensão de tempo? (considera junto com a distância e muda o score)
+- Pedir para candidato adicionar a dimensão de tempo de trânsito no cálculo do score
+
+- Adicionar lista de idiomas na vaga e no candidato para gerar o novo cálculo de score
+
+- Adicionar lista de empresas desejados no candidato para gerar um novo cálculo de score
