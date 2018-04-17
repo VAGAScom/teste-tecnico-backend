@@ -4,9 +4,7 @@
 
 Um recrutador precisa analisar as candidaturas recebidas para vagas de emprego. Dado o grande volume de candidaturas em algumas vagas, olhar um-a-um seria um trabalho muito demorado.
 
-Seu papel aqui é ajudar o recrutador, indicando as pessoas mais aderentes para cada vaga. Para isso, crie uma API de acordo com as especificações a seguir.
-
-Acreditamos que a estrutura a seguir é adequada para a solução do problema, porém sinta-se a vontade para adicionar o que achar necessário.
+Seu papel aqui é ajudar o recrutador, indicando as pessoas mais aderentes para cada vaga. Para isso, crie uma API de acordo com as especificações a seguir. Acreditamos que a estrutura a seguir é adequada para a solução do problema, porém sinta-se a vontade para acrescentar funcionalidades não especificadas.
 
 ### Especificações da API
 
