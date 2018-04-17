@@ -1,10 +1,10 @@
-# Processo Seletivo Vagas
+# Processo Seletivo Vagas - Engenheiro de Software
 
-## Engenheiro de Software
+## Recrutando candidatos
 
 Um recrutador precisa analisar as candidaturas recebidas para vagas de emprego. Dado o grande volume de candidaturas em algumas vagas, olhar um-a-um seria um trabalho muito demorado.
 
-Seu papel aqui é ajudar o recrutador, indicando para cada vaga as pessoas mais aderentes. Para isso, crie uma API de acordo com as especificações a seguir.
+Seu papel aqui é ajudar o recrutador, indicando as pessoas mais aderentes para cada vaga. Para isso, crie uma API de acordo com as especificações a seguir.
 
 Acreditamos que a estrutura a seguir é adequada para a solução do problema, porém sinta-se a vontade para adicionar o que achar necessário.
 
@@ -18,7 +18,7 @@ Considerações gerais:
   * **3**: pleno
   * **4**: sênior
   * **5**: especialista
-* **Localidades**: representadas por letras do alfabeto. Verificar no mapa abaixo os caminhos e distâncias entre as localidades
+* **Localidades**: representadas por letras do alfabeto. Verificar no mapa abaixo os caminhos e distâncias entre as localidades.
 
 ![](./graph.png)
 
@@ -26,9 +26,11 @@ Considerações gerais:
 
 #### 1. Criar um endpoint para cadastrar vagas de emprego
 
-**POST:** `http://localhost:9000/v1/vaga`
+**Request:** 
 
-**Body:**
+```POST http://localhost:9000/v1/vagas```
+
++ Body:
 
 ```json
 {
@@ -40,13 +42,17 @@ Considerações gerais:
 }
 ```
 
+**Response:**
 
+O response para esta função será definido por você e faz parte da avaliação.
 
 #### 2. Criar um endpoint para cadastrar pessoas
 
-**POST:** `http://localhost:9000/v1/pessoa`
+**Request:** 
 
-**Body:**
+```POST http://localhost:9000/v1/pessoas```
+
++ Body:
 
 ```json
 {
@@ -57,15 +63,19 @@ Considerações gerais:
 }
 ```
 
+**Response:**
 
+O response para esta função será definido por você e faz parte da avaliação.
 
 #### 3. Registrar candidatura de uma pessoa em uma vaga
 
 Neste endpoint, além de registar a candidatura, deverá também ser calculado o **score***  do candidato para a vaga em questão.
 
-**POST:** `http://localhost:9000/v1/candidatura`
+**Request:** 
 
-**Body:**
+```POST http://localhost:9000/v1/candidaturas```
+
++ Body:
 
 ```json
 {
@@ -73,6 +83,10 @@ Neste endpoint, além de registar a candidatura, deverá também ser calculado o
     "id_pessoa": 2
 }
 ```
+
+**Response:**
+
+O response para esta função será definido por você e faz parte da avaliação.
 
 ##### Cálculo do score:
 
@@ -130,7 +144,7 @@ O cálculo do score, ficaria da seguinte maneira:
 
 #### 4. Criar um endpoint para retornar os candidatos de uma vaga, ordenados pelo score
 
-**GET:** `http://localhost:9000/v1/vaga/1/candidaturas/ranking`
+**GET:** `http://localhost:9000/v1/vagas/1/candidaturas/ranking`
 
 **Response:**
 

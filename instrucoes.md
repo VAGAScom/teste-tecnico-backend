@@ -15,7 +15,7 @@ Este documento descreve o exercício de programação para a vaga de Engenheiro 
 
 ## Desafio
 
-O desafio pode ser acessado pelo [link](repositorio.github).
+O desafio pode ser acessado pelo [link](desafio-tecnico.md).
 
 ## Documentação e Deploy
 
