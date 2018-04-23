@@ -4,3 +4,6 @@
 - Desenhar fórmulas de adicionar lista de idiomas e empresas desejadas
 - Definir critério de desempate (achamos que não agrega valor, a distância já pode servir como critério de desempate)
 - Incluiremos validações para os campos das requests?
+
+- Considerar a data de candidatura como critério de desempate do score. Discutir só devemos colocar isto na extensão ou diretamente na fórmula.
+- Discutir com o RH sobre "Pessoa desenvolvedora de software"

@@ -100,7 +100,7 @@ $$ SCORE = N + 3 \times D$$, onde:
 
 Considere somente a parte inteira do *SCORE*.
 
-*_Esperamos que você implemente o algoritmo do cálculo da distância, porém sinta-se a vontade para estudar e utilizar algoritmos conhecidos_
+*_Esperamos que você implemente o algoritmo do cálculo da distância, porém sinta-se a vontade para utilizar algoritmos conhecidos_
 
 *_Ressaltando que esta é uma fórmula hipotética_
 
