@@ -18,7 +18,7 @@ O desafio pode ser acessado pelo [link](desafio-tecnico.md).
 
 ## Documentação e Deploy
 
-Crie uma documentação breve sobre a sua solução, com explicação sobre a arquitetura/design e hipóteses assumidas. 
+Crie uma documentação breve sobre a sua solução, com explicação sobre a arquitetura/design e hipóteses assumidas.
 
 Esperamos também um passo a passo de como executar a sua solução. Quanto mais simples, melhor. Vale ressaltar que a execução **não poderá depender do uso de alguma IDE específica**.
 
@@ -26,7 +26,7 @@ A utilização de Docker é um plus ;)
 
 ## Avaliação
 
-A sua solução será avaliada por um time de engenheiros de software aqui da VAGAS.com, com base nos seguintes critérios:
+A sua solução será avaliada por um time de engenheiros(as) de software aqui da VAGAS.com, com base nos seguintes critérios:
 
 ### Execução
 
