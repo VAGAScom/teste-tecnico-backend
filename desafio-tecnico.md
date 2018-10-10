@@ -69,7 +69,33 @@ Considere somente a parte inteira do *score*.
 
 #### Endpoints
 
-##### 1. Criar um endpoint para cadastrar vagas de emprego
+##### 1. Criar um endpoint para cadastrar localidades
+
+**Request:** 
+
+```POST http://localhost:9000/v1/localidades```
+
++ Body:
+
+```json
+{
+    "localidade": "G",
+    "caminhos": [
+        {
+            "id_destino": 1,
+            "distancia": 5
+        },
+        ...
+    ]
+}
+```
+
+**Response:**
+
+O response para esta função será definido por você e **faz parte da avaliação**.
+
+
+##### 2. Criar um endpoint para cadastrar vagas de emprego
 
 **Request:** 
 
@@ -91,7 +117,7 @@ Considere somente a parte inteira do *score*.
 
 O response para esta função será definido por você e **faz parte da avaliação**.
 
-##### 2. Criar um endpoint para cadastrar pessoas
+##### 3. Criar um endpoint para cadastrar pessoas
 
 **Request:** 
 
@@ -112,7 +138,7 @@ O response para esta função será definido por você e **faz parte da avaliaç
 
 O response para esta função será definido por você e **faz parte da avaliação**.
 
-##### 3. Registrar candidatura de uma pessoa em uma vaga
+##### 4. Registrar candidatura de uma pessoa em uma vaga
 
 Neste endpoint você deverá registar a candidatura do candidato para a vaga em questão.
 
@@ -133,7 +159,7 @@ Neste endpoint você deverá registar a candidatura do candidato para a vaga em 
 
 O response para esta função será definido por você e **faz parte da avaliação**.
 
-##### 4. Criar um endpoint para retornar os candidatos de uma vaga, ordenados pelo score (de forma decrescente)
+##### 5. Criar um endpoint para retornar os candidatos de uma vaga, ordenados pelo score (de forma decrescente)
 
 **GET:** `http://localhost:9000/v1/vagas/1/candidaturas/ranking`
 
