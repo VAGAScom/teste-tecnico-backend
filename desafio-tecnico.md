@@ -69,7 +69,7 @@ Considere somente a parte inteira do *score*.
 
 #### Endpoints
 
-##### 1. Criar um endpoint para cadastrar localidades
+##### 1.1. Criar um endpoint para cadastrar localidades
 
 **Request:** 
 
@@ -94,6 +94,34 @@ Considere somente a parte inteira do *score*.
 
 O response para esta função será definido por você e **faz parte da avaliação**.
 
+
+##### 1.2. Criar um endpoint para cadastrar caminhos entre as localidades
+
+**Request:** 
+
+```POST http://localhost:9000/v1/localidades/<id>/caminhos```
+
++ Body:
+
+```json
+{
+    "caminhos": [
+        {
+            "id_destino": 1,
+            "distancia": 5
+        },
+        {
+            "id_destino": 2,
+            "distancia": 3
+        }
+        ...
+    ]
+}
+```
+
+**Response:**
+
+O response para esta função será definido por você e **faz parte da avaliação**.
 
 ##### 2. Criar um endpoint para cadastrar vagas de emprego
 
