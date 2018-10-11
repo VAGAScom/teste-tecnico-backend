@@ -79,14 +79,7 @@ Considere somente a parte inteira do *score*.
 
 ```json
 {
-    "localidade": "G",
-    "caminhos": [
-        {
-            "id_destino": 1,
-            "distancia": 5
-        },
-        ...
-    ]
+    "localidade": "G"
 }
 ```
 
