@@ -16,4 +16,11 @@
 
 - Adicionar lista de empresas desejados no candidato para gerar um novo cálculo de score
 
+- Incluir um novo critério para o cálculo do score.
+  1. Adicionar um campo "experiência" de texto livre a **pessoa**.
+  2. Adicionar a seguinte lógica ao cálculo do score:
+    ```
+    Caso o campo "título" da 'vaga' esteja presente na "experiência" da 'pessoa', o 'score' do candidato para aquela vaga se mantém, caso contrário, o 'score' do candidato deve ser 0 (zero)
+    ```
+
 - Adicione sua ideia aqui!
