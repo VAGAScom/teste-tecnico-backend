@@ -97,19 +97,17 @@ O response para esta função será definido por você e **faz parte da avaliaç
 + Body:
 
 ```json
-{
-    "caminhos": [
-        {
-            "id_destino": 1,
-            "distancia": 5
-        },
-        {
-            "id_destino": 2,
-            "distancia": 3
-        }
-        ...
-    ]
-}
+[
+    {
+        "id_destino": 1,
+        "distancia": 5
+    },
+    {
+        "id_destino": 2,
+        "distancia": 3
+    }
+    ...
+]
 ```
 
 **Response:**
