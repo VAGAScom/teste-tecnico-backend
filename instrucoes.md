@@ -5,7 +5,7 @@ Este documento descreve o exercício de programação para a vaga de Engenheiro(
 ## Considerações sobre o desafio
 
 * O prazo para entrega da solução é de 7 dias corridos, contados a partir da data de recebimento do desafio. Caso você precise de mais tempo, entre em contato conosco e fechamos uma nova data para a entrega. Não se preocupe, somos super flexíveis ;)
-* Utilize uma das seguintes linguagens: Ruby, Python, Java ou C#. Caso queira desenvolver em uma linguagem diferente das listadas aqui, fique à vontade. Mas podemos demorar um pouco mais em dar um retorno nesses casos.
+* Utilize uma das seguintes linguagens: Ruby, Python, Java ou C#. Caso queira desenvolver em uma linguagem diferente das listadas aqui, fique à vontade. Podemos demorar um pouco mais em dar um retorno nesses casos.
 * A utilização de frameworks/bibliotecas é livre para a construção da solução, exceto quando o enunciado indicar o contrário.
 * Em relação aos dados, estes poderão ser armazenados em memória durante a execução da API ou em banco de dados (relacional, não-relacional, chave-valor etc.). Escolha o que achar que faz mais sentido para o problema.
 * O código produzido deve estar versionado em algum repositório público (Github, Bitbucket etc.)
