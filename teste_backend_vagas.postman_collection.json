@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "ef8f20ff-fced-4e6a-b3e3-43bd6fab140a",
+		"name": "Teste Backend Vagas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Criar Pessoa",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"John Doe\",\n    \"profissao\": \"Engenheiro de Software\",\n    \"localizacao\": \"C\",\n    \"nivel\": 2\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9000/v1/pessoas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"v1",
+						"pessoas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Pessoas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:9000/v1/pessoas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"v1",
+						"pessoas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar Vaga",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"empresa\": \"Teste\",\n    \"titulo\": \"Vaga teste\",\n    \"descricao\": \"Criar os mais diferentes tipos de teste\",\n    \"localizacao\": \"A\",\n    \"nivel\": 3\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9000/v1/vagas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"v1",
+						"vagas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Vaga",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/v1/vagas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"v1",
+						"vagas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar Candidatura",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id_vaga\": 1,\n    \"id_pessoa\": 1\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:9000/v1/candidaturas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"v1",
+						"candidaturas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Candidatura",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:9000/v1/candidaturas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"v1",
+						"candidaturas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Ranking Candidaturas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/v1/vagas/1/candidaturas/ranking",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"v1",
+						"vagas",
+						"1",
+						"candidaturas",
+						"ranking"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

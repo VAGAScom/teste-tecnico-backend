@@ -7,3 +7,15 @@ Por enquanto, estamos apenas revisando o teste técnico de Backend, mas esperamo
 [Engenheiro de Software](instrucoes.md)
 
 [Desafio Técnico](desafio-tecnico.md)
+
+## Gerando arquivosos PDFs
+
+Para gerar os arquivos rode:
+
+```bash
+# desafio-tecnico.md
+docker run -v $PWD:/opt/docs auchida/markdown-pdf markdown-pdf -o desafio-tecnico.pdf desafio-tecnico.md
+
+# instrucoes.md
+docker run -v $PWD:/opt/docs auchida/markdown-pdf markdown-pdf -o instrucoes.pdf instrucoes.md
+```
