@@ -8,7 +8,7 @@ Por enquanto, estamos apenas revisando o teste técnico de Backend, mas esperamo
 
 [Desafio Técnico](desafio-tecnico.md)
 
-## Gerando arquivosos PDFs
+## Gerando arquivos em PDF
 
 Para gerar os arquivos rode:
 
