@@ -22,7 +22,7 @@ Considerações gerais:
 
 * ***Score* do candidato**: cada candidato deverá receber um *score* para cada candidatura que realizar. Esse *score* é definido com base no nível de experiência e localização em relação a vaga a qual se candidatou.
 
- 
+
 
 ##### Cálculo do *score* do candidato
 
@@ -43,7 +43,7 @@ $$
 
 onde:
 
-* *NV* é o nível de experiência esperado para a vaga 
+* *NV* é o nível de experiência esperado para a vaga
 * *NC* é o nível de experiência do candidato
 
 
@@ -62,7 +62,7 @@ Para definir o valor de *D*,  encontre a **menor distância entre o candidato e 
 
 Considere somente a parte inteira do *score*.
 
-**Não utilize bibliotecas para a realização do cálculo da distância**. 
+**Não utilize bibliotecas para a realização do cálculo da distância**.
 
 
 
@@ -71,7 +71,7 @@ Considere somente a parte inteira do *score*.
 
 ##### 1. Criar um endpoint para cadastrar vagas de emprego
 
-**Request:** 
+**Request:**
 
 ```POST http://localhost:9000/v1/vagas```
 
@@ -93,7 +93,7 @@ O response para esta função será definido por você e **faz parte da avaliaç
 
 ##### 2. Criar um endpoint para cadastrar pessoas
 
-**Request:** 
+**Request:**
 
 ```POST http://localhost:9000/v1/pessoas```
 
@@ -116,7 +116,7 @@ O response para esta função será definido por você e **faz parte da avaliaç
 
 Neste endpoint você deverá registar a candidatura do candidato para a vaga em questão.
 
-**Request:** 
+**Request:**
 
 ```POST http://localhost:9000/v1/candidaturas```
 
@@ -146,16 +146,15 @@ O response para esta função será definido por você e **faz parte da avaliaç
         "profissao": "Engenheira de Software",
         "localizacao": "A",
         "nivel": 4,
-        "score": 100
+        "score": 87
 	},
     {
         "nome": "John Doe",
         "profissao": "Engenheiro de Software",
         "localizacao": "C",
         "nivel": 2,
-        "score": 85
+        "score": 62
 	},
     ...
 ]
 ```
-
